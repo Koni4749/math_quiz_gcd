@@ -2,7 +2,6 @@ import streamlit as st
 import random
 import math
 import pandas as pd
-import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="중1 소인수분해 퀴즈", page_icon="🎓", layout="centered")
 
@@ -318,3 +317,4 @@ elif step == 11:
         for key in ["step", "score", "correct", "wrong", "data", "initialized"]:
             del st.session_state[key]
         st.rerun()
+
